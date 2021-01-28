@@ -1,0 +1,20 @@
+{
+  "name": "scala-in-60-minutes-slides",
+  "version": "1.0.0",
+  "description": "Slides for the Scala in 60 Minutes iska",
+  "scripts": {
+    "start": "reveal-md slides/index.md",
+    "dev": "reveal-md slides/index.md -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo-vrijswijk/scala-in-60-minutes.git"
+  },
+  "author": "Hugo van Rijswijk",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/hugo-vrijswijk/scala-in-60-minutes#readme",
+  "dependencies": {
+    "reveal-md": "^5.3.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "includeDir": "slides",
+  "title": "Scala in 60 minutes",
+  "css": "slides/custom.css",
+  "highlightTheme": "dracula"
+}
