@@ -4,7 +4,8 @@
   "description": "Slides for the Scala in 60 Minutes iska",
   "scripts": {
     "start": "reveal-md slides/index.md",
-    "dev": "reveal-md slides/index.md -w"
+    "dev": "reveal-md slides/index.md -w",
+    "test": "scala-cli test ."
   },
   "repository": {
     "type": "git",

@@ -9,4 +9,38 @@
 
 ## Welcome! 🙋‍♂️
 
+----
+
+## Intro
+
 ---
+
+# History
+
+---
+
+# Ecosystem & ideology
+
+----
+
+## Open-source ecosystem
+
+----
+
+## Company support
+
+----
+
+## Cathedral and the Bazaar
+
+---
+
+# Language features
+
+----
+
+## That's nice, but I like staring at bytecode
+
+----
+
+## Other platforms
