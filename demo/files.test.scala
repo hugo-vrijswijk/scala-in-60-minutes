@@ -6,6 +6,8 @@ import demo.*
 
 class TestSuite extends munit.FunSuite {
   test("hello") {
-    assertEquals("hello", "hello")
+    val expected = Seq("main.scala", "files.test.scala")
+    val obtained = filesByExtension("scala").map(_.last)
+    assertEquals(obtained, expected)
   }
 }
