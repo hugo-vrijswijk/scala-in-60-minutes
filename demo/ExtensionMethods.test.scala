@@ -1,4 +1,5 @@
 //> using lib "org.scalameta::munit::1.0.0-M1"
+import scala.annotation.targetName
 
 class SimpleExtensionTest extends munit.FunSuite {
   case class Circle(radius: Double)
@@ -13,7 +14,10 @@ class SimpleExtensionTest extends munit.FunSuite {
 
 class OperatorsTest extends munit.FunSuite {
 
-  extension (x: String) def <(y: String): Boolean = x.compareTo(y) < 0
+  extension (x: String) {
+    @targetName("lesserThan")
+    def <(y: String): Boolean = x.compareTo(y) < 0
+  }
 
   extension (x: Int) infix def min(y: Int): Int = if (x < y) x else y
 

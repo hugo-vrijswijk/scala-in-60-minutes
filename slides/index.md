@@ -69,19 +69,11 @@
 - Both can be open-source
 - <!-- .element class="fragment" data-fragment-index="1" --> Release schedules
 - <!-- .element class="fragment" data-fragment-index="2" --> Public vs "private"
-- <!-- .element class="fragment" data-fragment-index="3" --> Rewrite vs reuse
+- <!-- .element class="fragment" data-fragment-index="3" --> Frameworks vs libraries
 
-> With enough eyeballs all bugs are shallow
-<!-- .element class="fragment" data-fragment-index="4" -->
-----
-
-## Open-source ecosystem
 
 ![](img/share.webp)
-
-<iframe height="600" style="width: 100%;" scrolling="no" data-src="charts.html" frameborder="no" loading="lazy">
-</iframe>
- <!-- .element class="fragment" data-fragment-index="1" -->
+<!-- .element class="fragment" data-fragment-index="4" -->
 
 ----
 # FP & OOP
@@ -202,6 +194,9 @@ addOne(2) // 3
 
 > To change your age in FP, you must first copy the universe
 
+- <!-- .element class="fragment" data-fragment-index="1" --> Shallow copying
+- <!-- .element class="fragment" data-fragment-index="2" --> Concurrency
+- <!-- .element class="fragment" data-fragment-index="3" --> Reasoning
 ----
 
 ## Nested functions
@@ -333,6 +328,8 @@ val cat3 = cat.copy(name = "Ori") // Cat("Ori")
 ## Other platforms
 
 >> Demo
+
+<img data-src="img/yoda.jpg" height="400px" />
 
 ---
 
