@@ -1,11 +1,11 @@
 object MatchTypes {
 
   // So much code!!!
-  
+
   def firstCharOf(string: String): Char =
     if string.isEmpty then throw new NoSuchElementException
     else string.charAt(0)
-    
+
   def firstElemOf[T](arr: Array[T]): T =
     if arr.isEmpty then throw new NoSuchElementException
     else arr.head

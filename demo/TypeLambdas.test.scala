@@ -30,7 +30,7 @@ object SecondAttempt {
       def tupleLeft[B](b: B): F[(B, A)]  = map(a => (b, a))
       def tupleRight[B](b: B): F[(A, B)] = map(a => (a, b))
 
-      def lift[B](f: A => B): F[A] => F[B] =  _.map(f)
+      def lift[B](f: A => B): F[A] => F[B] = _.map(f)
 
     }
 

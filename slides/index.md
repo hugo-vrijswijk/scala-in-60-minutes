@@ -42,6 +42,20 @@
 
 <!-- .element class="no-list" -->
 
+----
+
+## A modern language
+
+- Type-safe & statically typed
+- Type inference
+- Concise, but expressive
+- Java interop
+- Higher-order functions
+- 'Sealed' classes
+- Strong std lib
+- Intersection & union types
+- Performant
+
 ---
 
 # Ecosystem & ideology
@@ -70,7 +84,6 @@
  <!-- .element class="fragment" data-fragment-index="1" -->
 
 ----
-
 # FP & OOP
 
 <img data-src="img/fp-oop.jpg" height="600px">
@@ -173,9 +186,11 @@ add(1)(2) // 3
 
 ```scala
 // Similar to (x: Int, y: Int)
-val add: Int => Int => Int = (x: Int) => (y: Int) => x + x
+val add: Int => Int => Int = (x) => (y) => x + y
 
-val addOne: Int => Int = (x: Int) => add(x, 1)
+val addOne: Int => Int = (x) => add(x, 1)
+// Or
+val addOne: Int => Int = add(_, 1)
 
 addOne(2) // 3
 ```

@@ -34,7 +34,7 @@ object Safer {
     val opaqueName = Person.name(name) match {
       case Left(err)     => throw new Exception(err.toString) // Probbaly handle errors some other way
       case Right(result) => result
-    } 
+    }
     val opaqueEmail = Person.email(email)
 
     // Person(opaqueEmail, opaqueName)
