@@ -18,6 +18,8 @@
 - 👴 History
 - 🏞️ Ecosystem & ideology
 - 💬 Language features
+- 🍴 Bytecode
+- 🦹 Advanced features
 - 👠 Multi-platform
 
 <!-- .element class="no-list" -->
@@ -207,6 +209,8 @@ def factorial(x: Int): Int = {
 - No side effects
 - Replace by its result without changing behaviour
 
+<iframe data-src="https://wall.sli.do/event/dXqAHbwyVLvpenGS27Su8R?section=052d8cc8-d57a-41ae-a63e-458cc3afa573" height="100%" width="100%" style="min-height: 640px;" ></iframe>
+
 ---
 
 # Language features
@@ -225,8 +229,9 @@ if (stringOrNull != null) {
 }
 
 // More 'idiomatic Scala':
+// One of many data structures in the stdlib
 val maybeHello: Option[String] = None
-// val maybeHello: Option[String] = Some("Hello")
+val alsoMaybeHello: Option[String] = Some("Hello")
 
 maybeHello.map(_.toUpperCase).foreach(println)
 ```
@@ -249,21 +254,25 @@ val cat3 = cat.copy(name = "Ori") // Cat("Ori")
 
 ## Pattern matching
 
+>> Demo
+
 ----
 
 ## Extension methods
+
+>> Demo
 
 ----
 
 ## Enums
 
-----
-
-## For-comprehensions
+>> Demo
 
 ----
 
-## Given, using
+## For-comprehensions & data structures
+
+>> Demo
 
 ---
 ## That's nice, but I like staring at bytecode
@@ -276,32 +285,42 @@ val cat3 = cat.copy(name = "Ori") // Cat("Ori")
 
 ----
 
+## Given, using
+
+>> Demo
+
+----
+
 ## Opaque types
+
+>> Demo
 
 ----
 
 ## Match types
 
+>> Demo
+
 ----
 
 ## Type lambdas
+
+>> Demo
 
 ----
 
 ## Inline
 
-----
-
-## Type lambdas
-
-```scala
-val addTwo: Int => Int
-
-type MyMap = [X, Y] =>> Map[Y, X]
-type IntContainer = [A] ==>>  A[Int]
-```
+>> Demo
 
 ----
-
 
 ## Other platforms
+
+>> Demo
+
+---
+
+<iframe src="https://giphy.com/embed/xUPOqo6E1XvWXwlCyQ" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+<iframe data-src="https://wall.sli.do/event/dXqAHbwyVLvpenGS27Su8R?section=052d8cc8-d57a-41ae-a63e-458cc3afa573" height="100%" width="100%" style="min-height: 400px;" ></iframe>

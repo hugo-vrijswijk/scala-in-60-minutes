@@ -5,3 +5,5 @@ target/
 .bloop/
 .scala-build/
 .metals/
+
+cowsay*
